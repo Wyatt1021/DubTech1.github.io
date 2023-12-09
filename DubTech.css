@@ -1,0 +1,106 @@
+/* Body, This includes font, paddingk, etc. */
+body {
+    background-image: url("White.jpg");
+    padding-top: 2%;
+    font-family: Georgia;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;}
+  
+/* Scroll bar changes */
+  /* width */
+    ::-webkit-scrollbar {
+    width: 15px;
+    }
+  
+  /* Track */
+    ::-webkit-scrollbar-track { 
+    border-radius: 30px;
+    }
+   
+  /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 30px;
+    }
+  
+  /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(75, 75, 75); 
+    }
+/* End of Scroll bar changes */
+
+/* Content is the div around Column 1, 2, and 3. */
+#content {overflow: auto;}
+.center {
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+}
+
+/* This is to change link color */
+  /* unvisited link */
+    a:link {
+    color: rgb(85, 85, 85);
+    }
+  
+  /* visited link */
+    a:visited {
+    color: rgb(85, 85, 85);
+    }
+  /* mouse over link */
+    a:hover {
+    color: lightblue;
+    }
+  
+  /* selected link */
+    a:active {
+    color: black;}
+
+/* This is Nav, Feature, and footer settings */
+    #nav, #feature, #footer {
+    border: 10px;
+    border-radius: 25px;
+    Margin: 1%;}
+
+/* Column 1, 2, and 3 settings */
+.column1, .column2, .column3 {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    Width: 30.3%;
+    float: left;
+    margin: 1%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: .5%;
+    justify-content: center;}
+
+/* Just column 3 */
+.column3 {margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    border-radius: 25px;
+    background-color: #DCDCDC;;
+    padding: 0.5em 0;
+    border: 1px solid rgb(0, 0, 0);}
+
+    /* Separte nav to be able to center the items in it */
+#nav {
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    right: 15px;
+}
+
+
+#feature, .article {
+  
+    border-radius: 25px;
+    Height: 22em;
+    margin-bottom: 1em;
+    background-color: #DCDCDC;}
