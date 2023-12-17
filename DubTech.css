@@ -2,6 +2,7 @@
 body {
     background-image: url("White.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 2%;
     font-family: Georgia;
     width: 90%;
